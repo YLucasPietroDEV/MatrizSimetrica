@@ -7,5 +7,6 @@ def simetrica(m):
             if m[i][j] != m[j][i]:
                 return False
     return True
+#Matriz simetrica bidimensional
 m = [[1,2,3],[2,4,5],[3,5,2]]
 print(simetrica(m))
